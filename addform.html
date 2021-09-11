@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+<!-- //
+function add_code(){
+	var text = unescape(document.location.search.substring(1));
+	var div_katman = opener.document.getElementById('mesaj_icerik_div');
+
+	if (div_katman.style.display == 'inline'){
+		var veri = text;
+
+		veri = (veri.replace(/\[img\](.*?)\[\/img\]/gim,"<img src=\"$1\">"));
+		veri = (veri.replace(/\[url=(.*?)\](.*?)\[\/url\]/gim,"<a href=\"$1\">$2</a>"));
+
+		div_katman.focus();
+
+		if (document.all){
+			var imlec = opener.document.selection.createRange();
+			var metin = opener.document.selection.createRange().text;
+
+			metin = metin + veri;
+			imlec.pasteHTML(metin);
+			imlec.collapse(false);
+			imlec.select();}
+
+		else{
+			opener.document.execCommand('insertHTML', false, veri);
+			div_katman.focus();}
+	}
+
+	else{
+		opener.document.forms['form1'].mesaj_icerik.value += text;
+		opener.focus();}
+
+	window.close();
+}
+add_code();
+// -->
+</script>
+</body>
+</html>

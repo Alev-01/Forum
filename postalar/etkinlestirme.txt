@@ -1,0 +1,21 @@
+
+{forumadi} Forumlarýna Hoþ Geldiniz.
+
+Etkinleþtirme kodu baþvurusunda bulundunuz !
+
+Aþaðýdaki bilgilerle kaydýnýz yapýlmýþtýr.
+
+
+Kullanýcý Adý : {kullanici_adi}
+Parola : Kayýtta girdiðiniz
+E-Posta : {posta}
+Ad Soyad : {gercek_ad}
+Doðum Tarihi : {dogum_tarihi}
+Þehir : {sehir}
+
+
+Hesabýnýzý etkinleþtirmek için alttaki baðlantýyý týklayýn.
+
+
+http://{alanadi}{f_dizin}/kul_etkin.php?kulid={kulid}&kulkod={kul_etkin_kod}
+

@@ -1,0 +1,9 @@
+
+Eklemek istediðiniz ifadeleri (grafik dosyalarýný) bu klasöre atýn.
+
+Daha sonra gerecler.php içindeki  "$ifaadeler_dizi1"  ve  "$ifaadeler_dizi2"  dizi deðiþkenlerine ifadelerinizi ekleyin.
+
+
+Daha fazla bilgi için þu adrese bakýn: 
+
+http://www.phpkf.com/k1877-ifade-ekleme-ve-siralanisini-degistirme.html

@@ -1,0 +1,8 @@
+
+Sayýn {kullanici_adi};
+
+{forumadi} Forumlarýnda bulunan hesabýnýzýn E-Posta adresini deðiþtirdiniz.
+Adres deðiþikliðini tamamlamak için alttaki baðlantýyý týklayýn.
+
+
+{tiklanacak_baglanti}
